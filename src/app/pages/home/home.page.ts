@@ -14,6 +14,7 @@ export class HomePage implements OnInit {
     {img: '../../../assets/img/2web.png'},
     {img: '../../../assets/img/3web.png'},
     {img: '../../../assets/img/4web.png'},
+    {img: '../../../assets/img/5web.png'},
   ]
 
   constructor() { }
