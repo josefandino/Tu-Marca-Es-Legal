@@ -1,0 +1,16 @@
+.whatsapp {width: 60px;height: 60px;
+  position: fixed;z-index: 9;
+  right: 2em;bottom: 1em;
+  padding: 0;margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  // background: #fff;
+  border-radius:.50%;
+  overflow:hidden;
+  a{text-decoration: none; }
+  img{width:100%;height:auto;}
+}
+.whatsapp:hover{transform:scale(1.2) translateY(-3px);}
+.whatsapp:active{transform:scale(.60) translateY(3px);}
